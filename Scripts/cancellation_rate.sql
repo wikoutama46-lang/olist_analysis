@@ -1,8 +1,5 @@
 -- Berapa Cancellation Rate berdasarkan seller, kategori produk, dan periode order?
 
-
-
-
 SELECT 
 	s.seller_id,
 	TO_CHAR(o.order_purchase_timestamp::DATE, 'YYYY-MM') AS order_month,
