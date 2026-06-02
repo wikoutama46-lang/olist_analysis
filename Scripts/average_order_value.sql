@@ -17,7 +17,7 @@ SELECT
 	c.customer_city, 
 	ptc.payment_type,
 	o.order_status,
-	AVG(order_value.total_order_value) AS average_order_value
+	ROUND(AVG(order_value.total_order_value::NUMERIC), 2) AS average_order_value
 FROM order_value
 JOIN orders o ON order_value.order_id = o.order_id
 JOIN payment_type_clean ptc ON o.order_id = ptc.order_id 
