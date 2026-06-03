@@ -13,5 +13,12 @@ LEFT JOIN product_category_name_translation pcnt ON p.product_category_name = pc
 GROUP BY 
 	s.seller_id,
 	product_category,
-	order_month
+	order_month;
 	
+	
+	
+SELECT 
+	TO_CHAR(o.order_purchase_timestamp::DATE, 'YYYY-MM' ) AS order_month,
+	COUNT(customer_id)
+FROM orders o
+GROUP BY order_month
