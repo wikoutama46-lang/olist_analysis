@@ -1,8 +1,7 @@
 -- Berapa Cancellation Rate berdasarkan seller, kategori produk, dan periode order?
-
 SELECT 
 	s.seller_id,
-	TO_CHAR(o.order_purchase_timestamp::DATE, 'YYYY-MM') AS order_month,
+	DATE_TRUNC('month' ,o.order_purchase_timestamp::DATE) AS order_month,
 	pcnt.product_category_name_english AS product_category,
 	ROUND(SUM(CASE WHEN order_status = 'canceled' THEN 1.0 ELSE 0.0 END) / COUNT(DISTINCT o.order_id), 2) AS cancenllation_rate
 FROM orders o
@@ -13,12 +12,6 @@ LEFT JOIN product_category_name_translation pcnt ON p.product_category_name = pc
 GROUP BY 
 	s.seller_id,
 	product_category,
-	order_month;
+	order_month
+
 	
-	
-	
-SELECT 
-	TO_CHAR(o.order_purchase_timestamp::DATE, 'YYYY-MM' ) AS order_month,
-	COUNT(customer_id)
-FROM orders o
-GROUP BY order_month
