@@ -37,21 +37,14 @@ The dashboard highlights key e-commerce performance metrics. The ratio between *
 
 ## Key Findings
 
-### 1. Home Comfort Leads GMV Growth
+## Key Findings
+1. Home Comfort became the category with the highest GMV and showed strong growth from 2017 to 2018 ([See details](#1-high-customer-interest-in-home-comfort-products)).
 
-The **Home Comfort** category generated the highest GMV and demonstrated strong growth from 2017 to 2018.
+2. In most cities with the highest AOV, credit card transactions had a higher average order value ([See details](#2-customers-prefer-credit-cards-for-transactions)).
 
-### 2. Credit Card Transactions Have Higher AOV
+3. Customers using credit cards had the highest LTV compared to other payment methods ([See details](#3-customers-using-credit-cards-have-higher-lifetime-value)).
 
-In most of the cities with the highest Average Order Value, customers primarily used **credit cards**, indicating that higher-value purchases are commonly associated with this payment method.
-
-### 3. Credit Card Users Generate the Highest LTV
-
-Customers who use **credit cards** generate the highest Customer Lifetime Value compared to users of other payment methods.
-
-### 4. Stable Cancellation Rate Across Categories
-
-The Cancellation Rate remained relatively low and stable throughout the analysis period despite growth in product purchases.
+4. The Cancellation Rate was relatively low and stable throughout the analysis period ([See details](#4-product-category-growth-and-stable-cancellation-rates)).
 
 ## Insights Deep Dive
 
