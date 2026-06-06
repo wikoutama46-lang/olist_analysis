@@ -1,3 +1,92 @@
+English
+---
+# E-Commerce Olist Analysis
+
+## Background & Overview
+
+Olist is a Brazilian e-commerce company that connects marketplaces with thousands of sellers. This project analyzes the Olist e-commerce dataset using **SQL (PostgreSQL)** and **Power BI** to answer key business questions and evaluate important e-commerce metrics, including **Gross Merchandise Value (GMV)**, **Average Order Value (AOV)**, **Customer Lifetime Value (LTV)**, and **Cancellation Rate (CR)**.
+
+### Tools & Technologies
+
+- SQL (PostgreSQL)
+- Power BI
+
+📄 Click [here](/Scripts/) to view the SQL scripts.
+
+📊 Click [here](/dashboard.pbix) to view the Power BI dashboard.
+
+### Business Questions
+
+1. What is the monthly Gross Merchandise Value (GMV) by seller and product category?
+2. What is the Average Order Value (AOV) based on payment method, order status, and customer location?
+3. Which customer segments generate the highest Customer Lifetime Value (LTV) based on order and payment history?
+4. What is the Cancellation Rate (CR) by seller, product category, and order period?
+
+## Data Structure Overview
+
+![ERD](/image/ERD.png)
+
+**Source:**  
+[E-commerce Dataset by Olist (SQLite)](https://www.kaggle.com/datasets/terencicp/e-commerce-dataset-by-olist-as-an-sqlite-database)
+
+## Dashboard Overview
+
+The dashboard highlights key e-commerce performance metrics. The ratio between **Customer Lifetime Value** and **Average Order Value** is approximately **6.1**, indicating that customers make repeat purchases over time. Additionally, the **average Cancellation Rate** remains relatively low, suggesting efficient operational processes, positive customer experiences, and limited revenue loss caused by order cancellations.
+
+![dashboard](/image/dashboard.png)
+
+## Key Findings
+
+### 1. Home Comfort Leads GMV Growth
+
+The **Home Comfort** category generated the highest GMV and demonstrated strong growth from 2017 to 2018.
+
+### 2. Credit Card Transactions Have Higher AOV
+
+In most of the cities with the highest Average Order Value, customers primarily used **credit cards**, indicating that higher-value purchases are commonly associated with this payment method.
+
+### 3. Credit Card Users Generate the Highest LTV
+
+Customers who use **credit cards** generate the highest Customer Lifetime Value compared to users of other payment methods.
+
+### 4. Stable Cancellation Rate Across Categories
+
+The Cancellation Rate remained relatively low and stable throughout the analysis period despite growth in product purchases.
+
+## Insights Deep Dive
+
+### 1. High Customer Interest in Home Comfort Products
+
+![Gross Merchandise Value](/image/gmv.png)
+
+The **Home Comfort** category contributed significantly to total sales value. Between **2017** and **2018**, the category generated a combined GMV of approximately **22M**, increasing from **7M** in 2017 to **15M** in 2018. This trend indicates growing customer demand for Home Comfort products.
+
+### 2. Customers Prefer Credit Cards for High-Value Transactions
+
+![Average Order Value](/image/aov.png)
+
+In **4 out of the 5 cities** with the highest Average Order Value, customers primarily used **credit cards** as their preferred payment method. This suggests that customers tend to use credit cards for higher-value purchases. Voucher payments also contributed significantly to AOV in several cities.
+
+### 3. Customers Using Credit Cards Have Higher Lifetime Value
+
+![Lifetime Value](/image/ltv.png)
+
+Customers who use **credit cards** generate the highest Customer Lifetime Value, demonstrating stronger long-term engagement and spending behavior. The second-highest segment consists of customers using **boleto**, a widely adopted payment method in Brazil.
+
+### 4. Product Category Growth and Stable Cancellation Rates
+
+![Cancellation Rate](/image/cr.png)
+
+Product purchases increased steadily throughout the year, from approximately **1.5K orders (January–March)** to **1.7K orders (April–June)**, reaching a peak of **1.9K orders (July–August)**. Meanwhile, the Cancellation Rate remained stable, with only a slight increase in September and October, likely due to incomplete records.
+
+## Recommendations
+
+1. Focus on the **Home Comfort** category by increasing promotions, improving product visibility, and attracting more sellers within this segment.
+2. Introduce **cashback offers**, **installment plans**, or **loyalty programs** for credit card users to improve customer retention and maximize customer value.
+3. Replicate successful strategies from the top-performing cities in regions with lower AOV by implementing targeted promotions and analyzing local customer behavior and product preferences.
+
+Indonesia
+---
 # E-Commerce Olist Analysis
 
 ## Background & Overview
@@ -7,9 +96,9 @@ Olist adalah perusahaan asal Brazil yang bergerak dalam bidang e-commerce, atau 
 - SQL (PostgreSQL)
 - Power BI
 
-Klik [disini](/Scripts/) untuk melihat Script SQL  
+📄 Klik [disini](/Scripts/) untuk melihat Script SQL  
 
-Klik [disini](/dashboard.pbix) untuk melihat Dashboard Power BI 
+📊  Klik [disini](/dashboard.pbix) untuk melihat Dashboard Power BI 
 <br>
 ### Business Questions:
 1. Berapa total Gross Merchandise Value (GMV) per bulan berdasarkan seller dan kategori produk?
