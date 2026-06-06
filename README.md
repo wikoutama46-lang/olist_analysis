@@ -6,13 +6,11 @@ Olist adalah perusahaan asal Brazil yang bergerak dalam bidang e-commerce, atau 
 ### Tools & Technologies
 - SQL (PostgreSQL)
 - Power BI
-<br> <br>
 
-Klik disini untuk melihat Script SQL ([lihat](/Scripts/)) 
-<br>
-<br>
-Klik disini untuk melihat Dashboard Power BI ([lihat](/dashboard.pbix))
+Klik [disini](/Scripts/) untuk melihat Script SQL  
 
+Klik [disini](/dashboard.pbix) untuk melihat Dashboard Power BI 
+<br>
 ### Business Questions:
 1. Berapa total Gross Merchandise Value (GMV) per bulan berdasarkan seller dan kategori produk?
 2. Berapa Average Order Value (AOV) berdasarkan metode pembayaran, status order, dan lokasi customer?
