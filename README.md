@@ -37,7 +37,6 @@ The dashboard highlights key e-commerce performance metrics. The ratio between *
 
 ## Key Findings
 
-## Key Findings
 1. Home Comfort became the category with the highest GMV and showed strong growth from 2017 to 2018 ([See details](#1-high-customer-interest-in-home-comfort-products)).
 
 2. In most cities with the highest AOV, credit card transactions had a higher average order value ([See details](#2-customers-prefer-credit-cards-for-transactions)).
