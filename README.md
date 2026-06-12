@@ -22,6 +22,16 @@ Olist is a Brazilian e-commerce company that connects marketplaces with thousand
 3. Which customer segments generate the highest Customer Lifetime Value (LTV) based on order and payment history?
 4. What is the Cancellation Rate (CR) by seller, product category, and order period?
 
+### Key Findings
+
+1. Home Comfort became the category with the highest GMV and showed strong growth from 2017 to 2018 ([See details](#1-high-customer-interest-in-home-comfort-products)).
+
+2. In most cities with the highest AOV, credit card transactions had a higher average order value ([See details](#2-customers-prefer-credit-cards-for-transactions)).
+
+3. Customers using credit cards had the highest LTV compared to other payment methods ([See details](#3-customers-using-credit-cards-have-higher-lifetime-value)).
+
+4. The Cancellation Rate was relatively low and stable throughout the analysis period ([See details](#4-product-category-growth-and-stable-cancellation-rates)).
+
 ## Data Structure Overview
 
 ![ERD](/image/ERD.png)
@@ -34,16 +44,6 @@ Olist is a Brazilian e-commerce company that connects marketplaces with thousand
 The dashboard highlights key e-commerce performance metrics. The ratio between **Customer Lifetime Value** and **Average Order Value** is approximately **6.1**, indicating that customers make repeat purchases over time. Additionally, the **average Cancellation Rate** remains relatively low, suggesting efficient operational processes, positive customer experiences, and limited revenue loss caused by order cancellations.
 
 ![dashboard](/image/dashboard.png)
-
-## Key Findings
-
-1. Home Comfort became the category with the highest GMV and showed strong growth from 2017 to 2018 ([See details](#1-high-customer-interest-in-home-comfort-products)).
-
-2. In most cities with the highest AOV, credit card transactions had a higher average order value ([See details](#2-customers-prefer-credit-cards-for-transactions)).
-
-3. Customers using credit cards had the highest LTV compared to other payment methods ([See details](#3-customers-using-credit-cards-have-higher-lifetime-value)).
-
-4. The Cancellation Rate was relatively low and stable throughout the analysis period ([See details](#4-product-category-growth-and-stable-cancellation-rates)).
 
 ## Insights Deep Dive
 
